@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Virtual Smart Bulb",
+        "type": "smart_light",
+        "manufacturer": "Philips",
+        "model": "Hue White",
+        "mac": "AA:BB:CC:00:11:22",
+        "port": 8001,
+        "services": [
+            "http"
+        ],
+        "vulnerabilities": [
+            "weak_password",
+            "telnet_enabled"
+        ],
+        "firmware": "1.2.3"
+    },
+    {
+        "name": "Virtual Security Camera",
+        "type": "smart_camera",
+        "manufacturer": "Wyze",
+        "model": "Cam v3",
+        "mac": "AA:BB:CC:00:11:33",
+        "port": 8002,
+        "services": [
+            "rtsp",
+            "http"
+        ],
+        "vulnerabilities": [
+            "default_password",
+            "CVE-2021-12345"
+        ],
+        "firmware": "4.5.6"
+    },
+    {
+        "name": "Virtual Smart Speaker",
+        "type": "smart_speaker",
+        "manufacturer": "Amazon",
+        "model": "Echo Dot",
+        "mac": "AA:BB:CC:00:11:44",
+        "port": 8003,
+        "services": [
+            "http",
+            "bluetooth"
+        ],
+        "vulnerabilities": [],
+        "firmware": "7.8.9"
+    },
+    {
+        "name": "Virtual Smart Thermostat",
+        "type": "smart_thermostat",
+        "manufacturer": "Nest",
+        "model": "Learning Thermostat",
+        "mac": "AA:BB:CC:00:11:55",
+        "port": 8004,
+        "services": [
+            "http",
+            "mqtt"
+        ],
+        "vulnerabilities": [
+            "weak_encryption",
+            "CVE-2022-11111"
+        ],
+        "firmware": "2.3.4"
+    },
+    {
+        "name": "Virtual Smart Lock",
+        "type": "smart_lock",
+        "manufacturer": "Yale",
+        "model": "Assure Lock",
+        "mac": "AA:BB:CC:00:11:66",
+        "port": 8005,
+        "services": [
+            "bluetooth",
+            "zigbee"
+        ],
+        "vulnerabilities": [],
+        "firmware": "5.6.7"
+    }
+]

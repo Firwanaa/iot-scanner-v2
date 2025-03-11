@@ -1,0 +1,2 @@
+[console_scripts]
+iot-scanner = iot_scanner_main:main
